@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react'
 
-const AboutPage = React.createClass({
+class AboutPage extends React.Component{
   render () {
     return (
         <div>
@@ -9,6 +9,6 @@ const AboutPage = React.createClass({
         </div>
     );
   }
-})
+}
 
 export default AboutPage;
