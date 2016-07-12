@@ -66,6 +66,7 @@ class CourseApi {
 
   static saveCourse(course) {
     course = Object.assign({}, course); // to avoid manipulating object passed in.
+   console.log('@@@@@@@@@@@@@@222'+JSON.stringify(course));
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         // Simulate server-side validation
